@@ -172,7 +172,7 @@ function wrapper() {
         link.download = 'Portal_Export.csv';
         link.href = "data:text/csv," + escape(csvData);
         link.click();
-    }
+    };
 
     self.showDialog = function showDialog(o) {
         var csvData = self.generateCsvData();
